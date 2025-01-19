@@ -17,5 +17,9 @@ document.getElementById('photo').addEventListener('change', function (event) {
 // Formulir submit handler
 document.getElementById('userForm').addEventListener('submit', function (event) {
     event.preventDefault();
-    alert('Formulir telah dikirim!');
+    Swal.fire({
+      title: "Succes!",
+      icon: "success",
+      draggable: true
+    });
 });
