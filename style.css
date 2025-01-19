@@ -56,6 +56,11 @@ section {
 #galeri img {
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
+    display: block;         
+    margin: 0 auto;
+    width: 80% !important;   
+    height: 550px; 
+    object-fit: cover;
 }
 
 #galeri img:hover {
@@ -93,10 +98,6 @@ form .form-control:focus {
 button {
     border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
-}
-
-button:hover {
-    transform: scale(1.05);
 }
 
 /* Kontak Section */
