@@ -1,0 +1,158 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Navbar Styling */
+.container-fluid img {
+    height:50px;
+    width: auto;
+}
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #007bff !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Galeri Styling */
+#galeri img {
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#galeri img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Styling */
+.table {
+    border: 1px solid #ddd;
+    background-color: #fefefe;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+}
+
+/* Form Styling */
+form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form .form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+button {
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Kontak Section */
+
+#kontak iframe {
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+#kontak .social-icons a {
+    margin-right: 10px;
+}
+
+#kontak a.btn {
+    margin: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#kontak a.btn:hover {
+    transform: translateY(-3px);
+    background-color: #0056b3;
+}
+
+/* Map Styling Placeholder */
+#map {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .table thead {
+        font-size: 0.9rem;
+    }
+
+    #galeri img {
+        margin-bottom: 15px;
+    }
+}
